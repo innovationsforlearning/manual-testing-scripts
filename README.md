@@ -15,17 +15,17 @@
 
 ### Teacher Notepad
 
-* [Teacher Conference](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-teacher_notepad-teacher_conference_testing_scripts.md)
-* [Teacher Small Group](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teacher_notepad-teacher_small_group_testing_scripts.md)
-* Partner Scoring - *pending*
+* [Teacher Conference Scripts](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-teacher_notepad-teacher_conference_testing_scripts.md)
+* [Teacher Small Group Scripts](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teacher_notepad-teacher_small_group_testing_scripts.md)
+* Partner Scoring Scripts - *pending*
 
 ### Student Small Group
 
-* [Student Small Group](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-student_small_group.md)
+* [Student Small Group Scripts](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-student_small_group.md)
 
 ### Partner Station
 
-* [Partner Station](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md)
+* [Partner Station Scripts](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md)
 
 ## TutorMate
 
