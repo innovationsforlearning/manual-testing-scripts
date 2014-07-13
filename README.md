@@ -4,7 +4,7 @@
 
 ## Setup
 
-[How to Install iOS Apps without the Apple Store](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/how_to_install_teachermate_apps.md)
+* [How to Install iOS Apps without the Apple Store](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/how_to_install_teachermate_apps.md)
 
 ## TeacherMate Teacher Notepad
 
