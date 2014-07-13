@@ -100,6 +100,9 @@
 * Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
 * Student App: Click on the **wrong** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
 * Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+
+#### Routine Testing Subflow
+
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
@@ -136,6 +139,9 @@
 * Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
 * Student App: Click on the **wrong** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
 * Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+
+#### Routine Testing Subflow
+
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
@@ -147,6 +153,9 @@
 1. Teacher App: Launch Onset-Rime/Flashcard - *Expect student card to be shown in the Top Section*
 * Student App: *Expect student screen to switch to "Onset-Rime/Flashcard" screen*
 * Teacher App: Select a Student Card - *Expect student card to turn orange color*
+
+#### Onset Subflow
+
 * Teacher App: Select an onset - *Expect the chosen onset to appear in Middle Window and related words to appear in the Top Window*
 * Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
 * Student App: *Expect the chosen word to appear in the Middle Top Hat image*
@@ -157,6 +166,9 @@
 * Student App: *Expect the chosen word to appear in the Middle Top Hat image*
 * Teacher App: Select the **No** button on the Student Card - *Expect the chosen onset to become red*
 * Repeat for all onsets
+
+#### Rime Subflow
+
 * Teacher App: Select a rime - *Expect the chosen rime to appear in Middle Window and related words to appear in the Top Window*
 * Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
 * Student App: *Expect the chosen word to appear in the Middle Top Hat image*
@@ -169,6 +181,9 @@
 * Teacher App: Repeat for all rimes
 * Teacher App: Select the **II**, **III**, and **IV** tabs on the right side of the Bottom Window
 * Teacher App: Repeat for all onsets and rimes
+
+#### Routine Testing Subflow
+
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
@@ -207,6 +222,9 @@
 * Student App: Click on the corresponding cloud - *Expect the letter to briefly appear and disappear*
 * Student App: Click on the **wrong** clouded letter, hold, and flick the cloud towards the top of the screen - *Expect the cloud to float up and letter to disappear again*
 * Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+
+#### Routine Testing Subflow
+
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
@@ -219,6 +237,9 @@
 * Teacher App: Select a Reading Level - *Expect the screen to switch to Story Menu Screen*
 * Teacher App: Select a Book - *Expect the screen to switch to Story Screen*
 * Student App: *Expect the screen to switch to Story Screen*
+
+#### Student Assessment Subflow
+
 * Teacher App: Select a Student ID at the top - *Expect the student card to turn orange*
 * Teacher App: Click on the **Common Core Standards** tab
 * Teacher App: Click on an **Assessment** once - *Expect assessment to turn red*
@@ -226,6 +247,9 @@
 * Teacher App: Click on an **Assessment** thrice - *Expect assessment to turn green*
 * Teacher App: Click on an **Assessment** fourth - *Expect assessment to be cleared*
 * Teacher App: Repeat for the **Comprehension Strategies** 
+
+#### Story Paging Subflow
+
 * Teacher App: Swipe the story page left - *Expect the page to move left*
 * Student App: *Expect the page to move left*
 * Teacher App: Swipe the story page right - *Expect the page to move right*
@@ -236,7 +260,23 @@
 * Student App: *Expect the same word to be highlighted blue*
 * Student App: Click on a word - *Expect the word to be highlighted blue*
 * Teacher App: *Expect the same word to be highlighted blue*
-* Teacher App: 
+
+#### Student Messaging Subflow
+
+* Teacher App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
+* Teacher App: Type into the message field - *Expect selected text to appear in the field*
+* Teacher App: Click the **Send** button - *Expect the keyboard to be hidden*
+* Student App: *Expect the Student Message Field to render the message*
+
+#### Student Messaging Subflow
+
+* Student App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
+* Student App: Type into the message field - *Expect selected text to appear in the field*
+* Student App: Click the **Send** button - *Expect the keyboard to be hidden*
+* Teacher App: *Expect the Teacher Message Field to render the message*
+
+#### Routine Testing Subflow
+
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
