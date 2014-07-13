@@ -212,3 +212,33 @@
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
 * Teacher App: Follow the WHITEBOARD WORKFLOW
+
+### Story Activity Workflow
+
+1. Teacher App: Click on the **Story** button - *Expect Middle Window to reveal Level Menu*
+* Teacher App: Select a Reading Level - *Expect the screen to switch to Story Menu Screen*
+* Teacher App: Select a Book - *Expect the screen to switch to Story Screen*
+* Student App: *Expect the screen to switch to Story Screen*
+* Teacher App: Select a Student ID at the top - *Expect the student card to turn orange*
+* Teacher App: Click on the **Common Core Standards** tab
+* Teacher App: Click on an **Assessment** once - *Expect assessment to turn red*
+* Teacher App: Click on an **Assessment** twice - *Expect assessment to turn yellow*
+* Teacher App: Click on an **Assessment** thrice - *Expect assessment to turn green*
+* Teacher App: Click on an **Assessment** fourth - *Expect assessment to be cleared*
+* Teacher App: Repeat for the **Comprehension Strategies** 
+* Teacher App: Swipe the story page left - *Expect the page to move left*
+* Student App: *Expect the page to move left*
+* Teacher App: Swipe the story page right - *Expect the page to move right*
+* Student App: *Expect the page to move right* 
+* Teacher App: Scroll the text up and down - *If extra lines are hidden, expect the scrolling to reveal all lines*
+* Student App: *Expect the text to scroll as appropriate*
+* Teacher App: Click on a word - *Expect the word to be highlighted blue*
+* Student App: *Expect the same word to be highlighted blue*
+* Student App: Click on a word - *Expect the word to be highlighted blue*
+* Teacher App: *Expect the same word to be highlighted blue*
+* Teacher App: 
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+* Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
+* Teacher App: Follow the CREATE NOTE WORKFLOW
+* Teacher App: Follow the USE TIMERS WORKFLOW
+* Teacher App: Follow the WHITEBOARD WORKFLOW

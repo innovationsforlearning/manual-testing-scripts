@@ -21,3 +21,9 @@
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
 * **Activity**: Stories - Common Core Standards
 * **Problem**: `Experience's` should be spelled `Experiences`
+
+## Bug #6
+
+* **App**: TeacherMate - Teacher Small Group and Student Small Group
+* **Activity**: Stories - Student Page Turning
+* **Problem**: If setting is switched to Student Turns Page, Teacher cannot switch back to Teacher Turns Page
