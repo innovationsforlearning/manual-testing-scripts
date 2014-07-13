@@ -295,24 +295,42 @@
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
 * Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Story Reading Subflow
+
 * Click on the **New Skill** button - *Expect the Story Menu to appear*
 * Click on a story - *Expect a story to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Sight Words Subflow
+
 * Click on the **New Skill** button - *Expect the Sight Words activity to appear*
 * Click on the **Flashcard** button - *Expect the Flashcard activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
 * Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Letter Names Subflow
+
 * Click on the **New Skill** button - *Expect the Letter Names activity to appear*
 * Click on the **Flashcard** button - *Expect the Flashcard activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
 * Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Story Reading Subflow
+
 * Click on the **New Skill** button - *Expect the Story Menu to appear*
 * Click on a story - *Expect a story to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Letter Sounds Subflow
+
 * Click on the **New Skill** button - *Expect the Letter Sounds activity to appear*
 * Click on the **Exit** button - *Expect the What Next? menu to appear*
+
+#### Session Ends Subflow
+
 * Click on the **New Skill** button - *Expect the Reading Stage activity to appear*
 
 ### Automatic Sequences to Check - *Use the above SKILL PROGRESSION WORKFLOW EXAMPLE*
