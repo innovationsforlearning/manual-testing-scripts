@@ -19,5 +19,5 @@
 ## Bug #4
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
-* **Activity**: Stories - Common Core Standards - Compare and Contrast Character Experience's
-* **Problem**: Experience's should be spelled Experiences
+* **Activity**: Stories - Common Core Standards
+* **Problem**: `Experience's` should be spelled `Experiences`
