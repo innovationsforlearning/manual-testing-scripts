@@ -2,6 +2,13 @@
 
 *Scripts for manual testing of IFL applications*
 
+## TOC
+
+* Help
+* Setup
+* TeacherMate Scripts
+* TutorMate Scripts
+
 ## Help
 
 * Contact us with any problems at <support@innovationsforlearning.org>
@@ -11,7 +18,7 @@
 
 * [How to Install iOS Apps without the Apple Store](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/how_to_install_teachermate_apps.md)
 
-## TeacherMate
+## TeacherMate Scripts
 
 ### Teacher Notepad
 
@@ -27,6 +34,6 @@
 
 * [Partner Station Scripts](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md)
 
-## TutorMate
+## TutorMate Scripts
 
 * *pending*
