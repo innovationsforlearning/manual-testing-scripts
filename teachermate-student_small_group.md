@@ -65,20 +65,108 @@
 * Repeat the above steps with the with second timer
 * *Expect the STOP button to back into START when the timer expires*
 
-### Letter Names (Teacher and Student) Workflow
+### Change Assessment Workflow
+
+* Click on a letter/word on in the selection window and hold - *Expect the color selector to appear*
+* Choose a different color - *Expect the color to change as selected*
+* Repeat for all three colors
+
+### Letter Names/Flashcard (Teacher and Student) Workflow
 
 1. Teacher App: Launch Letter Names/Flashcard - *Expect student card to be shown in the Top Section*
-* Student App: *Expect student screen to switch to "Letter name" screen*
+* Student App: *Expect student screen to switch to "Letter name/Flashcard" screen*
+* Teacher App: Select a Student Card - *Expect student card to turn orange color*
 * Teacher App: Select a letter - *Expect the chosen letter to appear in Middle Window*
 * Student App: *Expect the chosen letter to appear in the Middle Circle*
-* Teacher App: Press the **Exit** button
-* Teacher App: Select the **Cover Up** button
+* Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen letter to become green*
+* Student App: *Expect the Starred Number on the screen to indicate the number of correct answers*
+* Student App: *Expect the chosen letter to appear in the Middle Circle*
+* Teacher App: Select the **No** button on the Student Card - *Expect the chosen letter to become red*
+* Teacher App: Repeat for all letters
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+
+### Letter Names/Cover Up (Teacher and Student) Workflow
+
+1. Teacher App: Launch Letter Names/Cover Up - *Expect student card to be shown in the Top Section*
 * Teacher App: Select six letters - *Expect each chosen letter to fill a circle in the correct order*
 * Student App: *Expect the circles to reveal the chosen letters on the same-colored circles*
 * Teacher App: Click on the **Cover** button
-* Student App: Expect the letters to disappear from the circles
+* Student App: *Expect the letters to disappear from the circles*
 * Teacher App: Click on a circled letter - *Expect the circle and letter to increase in size*
-* Follow the CHANGE ASSIGNMENT WORKFLOW
-* Follow the CREATE NOTE WORKFLOW
-* Follow the USE TIMERS WORKFLOW
-* Follow the WHITEBOARD WORKFLOW
+* Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **same** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn green in the keyboard window*
+* Teacher App: Click on a circled letter - *Expect the circle and letter to increase in size*
+* Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **wrong** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+* Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
+* Teacher App: Follow the CREATE NOTE WORKFLOW
+* Teacher App: Follow the USE TIMERS WORKFLOW
+* Teacher App: Follow the WHITEBOARD WORKFLOW
+
+### Letter Sounds/Flashcard (Teacher and Student) Workflow
+
+1. Teacher App: Launch Letter Sounds/Flashcard - *Expect student card to be shown in the Top Section*
+* Student App: *Expect student screen to switch to "Letter Sounds/Flashcard" screen*
+* Teacher App: Select a Student Card - *Expect student card to turn orange color*
+* Teacher App: Select a letter - *Expect the chosen letter to appear in Middle Window*
+* Student App: *Expect the chosen letter to appear in the Middle Stage image*
+* Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen letter to become green*
+* Student App: *Expect the Starred Number on the screen to indicate the number of correct answers*
+* Teacher App: Select a letter - *Expect the chosen letter to appear in Middle Window*
+* Student App: *Expect the chosen letter to appear in the Middle Stage image*
+* Teacher App: Select the **No** button on the Student Card - *Expect the chosen letter to become red*
+* Teacher App: Repeat for all letters
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+
+### Letter Sounds/Cover Up (Teacher and Student) Workflow
+
+1. Teacher App: Launch Letter Sounds/Cover Up - *Expect student card to be shown in the Top Section*
+* Teacher App: Select six letters - *Expect each chosen letter to fill a circle in the correct order*
+* Student App: *Expect the circles to reveal the chosen letters on the same-colored circles*
+* Teacher App: Click on the **Cover** button
+* Student App: *Expect the letters to disappear from the circles*
+* Teacher App: Click on a circled letter - *Expect the circle and letter to increase in size*
+* Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **same** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn green in the keyboard window*
+* Teacher App: Click on a circled letter - *Expect the circle and letter to increase in size*
+* Student App: Click on the corresponding circle - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **wrong** circled letter, hold, and flick the circle towards the top of the screen - *Expect the circle to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+* Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
+* Teacher App: Follow the CREATE NOTE WORKFLOW
+* Teacher App: Follow the USE TIMERS WORKFLOW
+* Teacher App: Follow the WHITEBOARD WORKFLOW
+
+### Onset-Rime/Flashcard (Teacher and Student) Workflow
+
+1. Teacher App: Launch Onset-Rime/Flashcard - *Expect student card to be shown in the Top Section*
+* Student App: *Expect student screen to switch to "Onset-Rime/Flashcard" screen*
+* Teacher App: Select a Student Card - *Expect student card to turn orange color*
+* Teacher App: Select an onset - *Expect the chosen onset to appear in Middle Window and related words to appear in the Top Window*
+* Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
+* Student App: *Expect the chosen word to appear in the Middle Top Hat image*
+* Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen onset to become green*
+* Student App: *Expect the Starred Number on the screen to indicate the number of correct answers*
+* Teacher App: Select an onset - *Expect the chosen onset to appear in Middle Window and related words to appear in the Top Window*
+* Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
+* Student App: *Expect the chosen word to appear in the Middle Top Hat image*
+* Teacher App: Select the **No** button on the Student Card - *Expect the chosen onset to become red*
+* Repeat for all onsets
+* Teacher App: Select a rime - *Expect the chosen rime to appear in Middle Window and related words to appear in the Top Window*
+* Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
+* Student App: *Expect the chosen word to appear in the Middle Top Hat image*
+* Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen onset to become green*
+* Student App: *Expect the Starred Number on the screen to indicate the number of correct answers*
+* Teacher App: Select an onset - *Expect the chosen time to appear in Middle Window and related words to appear in the Top Window*
+* Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
+* Student App: *Expect the chosen word to appear in the Middle Top Hat image*
+* Teacher App: Select the **No** button on the Student Card - *Expect the chosen onset to become red*
+* Teacher App: Repeat for all rimes
+* Teacher App: Select the **II**, **III**, and **IV** tabs on the right side of the Bottom Window
+* Teacher App: Repeat for all onsets and rimes
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
