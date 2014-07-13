@@ -5,7 +5,10 @@
 ## Help
 
 * Contact us with any problems at <support@innovationsforlearning.org>
-* In the email, please send us the following info: *Laptop version, iTunes version, Device type and version*
+* In the email, please send us the following info:
+    * Laptop version
+    * iTunes version
+    * Device type and version
 
 ## Setup
 
