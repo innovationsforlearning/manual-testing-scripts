@@ -1,5 +1,10 @@
 # Downloading and Installing the latest App Builds
 
+### Help
+
+* Contact us with any problems at <support@innovationsforlearning.org>
+* In an email, please send us the following info: *Laptop version, iTunes version, Device type and version*
+
 ## Needs (3 Devices)
 
 * Mac Laptop
@@ -11,7 +16,7 @@
 ### Prepare your iTunes
 
 1. On your Mac laptop, open iTunes
-* Select the Apps section 
+* Select the Apps section
 * ![Select the Apps section](http://bit.ly/1wfc9yv)
 * If any TeacherMate apps exist on your iTunes, please right click and delete
 * ![right click and delete](http://bit.ly/1wfbsF9)
@@ -29,14 +34,9 @@
 ### Install the apps on to your device
 
 1. Connect your iOS device to your laptop
-* Make sure the device shows up as connected 
+* Make sure the device shows up as connected
 * ![ensure connection](http://bit.ly/1wfbz3z)
-* Click on the device name to open in iTunes to view this screen 
+* Click on the device name to open in iTunes to view this screen
 * ![view device screen](http://bit.ly/1wfbJIk)
-* Click on the Install button for the app(s) and then click on the Sync button 
+* Click on the Install button for the app(s) and then click on the Sync button
 * ![install and sync](http://bit.ly/1wfc2mr)
-
-### Help
-
-* Contact us with any problems at <support@innovationsforlearning.org>
-* In an email, please send us the following info: *Laptop version, iTunes version, Device type and version*
