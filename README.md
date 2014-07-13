@@ -2,6 +2,11 @@
 
 *Scripts for manual testing of IFL applications*
 
+## Help
+
+* Contact us with any problems at <support@innovationsforlearning.org>
+* In the email, please send us the following info: *Laptop version, iTunes version, Device type and version*
+
 ## Setup
 
 * [How to Install iOS Apps without the Apple Store](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/how_to_install_teachermate_apps.md)
@@ -21,4 +26,4 @@
 
 ## TutorMate Apps
 
-*pending*
+* *pending*
