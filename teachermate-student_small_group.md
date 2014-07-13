@@ -170,3 +170,45 @@
 * Teacher App: Select the **II**, **III**, and **IV** tabs on the right side of the Bottom Window
 * Teacher App: Repeat for all onsets and rimes
 * Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+* Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
+* Teacher App: Follow the CREATE NOTE WORKFLOW
+* Teacher App: Follow the USE TIMERS WORKFLOW
+* Teacher App: Follow the WHITEBOARD WORKFLOW
+
+### Sight Words/Flashcard (Teacher and Student) Workflow
+
+1. Teacher App: Launch Sight Words/Flashcard - *Expect student card to be shown in the Top Section*
+* Student App: *Expect student screen to switch to "Sight Words/Flashcard" screen*
+* Teacher App: Select a Student Card - *Expect student card to turn orange color*
+* Teacher App: Select a word - *Expect the chosen word to appear in Middle Window*
+* Student App: *Expect the chosen letter to appear in the Middle Sunrise image*
+* Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen letter to become green*
+* Student App: *Expect the Starred Number on the screen to indicate the number of correct answers*
+* Teacher App: Select a letter - *Expect the chosen letter to appear in Middle Window*
+* Student App: *Expect the chosen letter to appear in the Middle Sunrise image*
+* Teacher App: Select the **No** button on the Student Card - *Expect the chosen letter to become red*
+* Teacher App: Repeat for all letters/words
+* Teacher App: Select the **II, III, IV, V, and VI** tabs - *Expect a new set of words to appear in the Bottom Middle Window**
+* Teacher App: Repeast for all letter/words
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+
+### Sight Words/Cover Up (Teacher and Student) Workflow
+
+1. Teacher App: Launch Sight Words/Cover Up - *Expect student card to be shown in the Top Section*
+* Teacher App: Select six letters - *Expect each chosen letter to fill a cloud in the correct order*
+* Student App: *Expect the circles to reveal the chosen letters on the same-colored clouds*
+* Teacher App: Click on the **Cover** button
+* Student App: *Expect the letters to disappear from the clouds*
+* Teacher App: Click on a clouded letter - *Expect the cloud and letter to increase in size*
+* Student App: Click on the corresponding cloud - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **same** clouded letter, hold, and flick the cloud towards the top of the screen - *Expect the cloud to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn green in the keyboard window*
+* Teacher App: Click on a clouded letter - *Expect the cloud and letter to increase in size*
+* Student App: Click on the corresponding cloud - *Expect the letter to briefly appear and disappear*
+* Student App: Click on the **wrong** clouded letter, hold, and flick the cloud towards the top of the screen - *Expect the cloud to float up and letter to disappear again*
+* Teacher App: *Expect the letter to appear in the student card and the same letter to turn red in the keyboard window*
+* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+* Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
+* Teacher App: Follow the CREATE NOTE WORKFLOW
+* Teacher App: Follow the USE TIMERS WORKFLOW
+* Teacher App: Follow the WHITEBOARD WORKFLOW
