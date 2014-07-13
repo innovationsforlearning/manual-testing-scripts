@@ -10,12 +10,6 @@
 * **Activity**: Stories - Student Messages
 * **Problem**: Text is not aligned within messaging field
 
-## Bug #3
-
-* **App**: TeacherMate - Teacher Small Group and Student Small Group
-* **Activity**: Stories - Student Page Turning
-* **Problem**: If setting is switched to Student Turns Page, Student turns the page, the Teacher App does not sync
-
 ## Bug #4
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
@@ -27,3 +21,4 @@
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
 * **Activity**: Stories - Student Page Turning
 * **Problem**: If setting is switched to Student Turns Page, Teacher cannot switch back to Teacher Turns Page
+* **Device**: iPad Mini

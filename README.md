@@ -25,3 +25,7 @@
 ## TutorMate
 
 * *pending*
+
+## Known bugs
+
+* [bugs](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/bugs.md)
