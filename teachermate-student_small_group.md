@@ -31,7 +31,7 @@
 
 ### Create Note Workflow
 
-* Click on **Note** button - *Expect Activities Screen to switch to Notes screen*
+1. Click on **Note** button - *Expect Activities Screen to switch to Notes screen*
 * Click the **Add Notes** button - *Expect the screen to switch to the Student Note Screen*
 * Click the **Add Notes** button - *Expect a new note to appear with the Date field already filled*
 * Click into **Observation/Instruction** space - *Expect cursor to move into and blink on Observation/Instruction space*
@@ -43,7 +43,7 @@
 
 ### Change Student Assignment Levels Workflow
 
-* Click on **Assignment** button - *Expect displays to show list of options: Reading Stage, Reading Level, Onset/Rime Set, Sight Word Set)*
+1. Click on **Assignment** button - *Expect displays to show list of options: Reading Stage, Reading Level, Onset/Rime Set, Sight Word Set)*
 * Click on **Reading Stage** and change - *Expect Assignment Description on bottom of app to change to chosen values*
 * Click on **Reading Level** and change - *Expect Assignment Description on bottom of app to change to chosen values*
 * Click on **Onset/Rime Set** and change - *Expect Assignment Description on bottom of app to change to chosen values*
@@ -54,7 +54,7 @@
 
 ### User Timers Workflow
 
-* Click on first **00:00** time - *Expect the screen to focus on a timer*
+1. Click on first **00:00** time - *Expect the screen to focus on a timer*
 * Click on the **00** for hours - *Expect a cursor to enter the field*
 * Click on a number to set minutes - *Expect the chosen number to be inserted into the field*
 * Click on the **00** for seconds - *Expect a cursor to enter the field*
@@ -67,7 +67,7 @@
 
 ### Change Assessment Workflow
 
-* Click on a letter/word on in the selection window and hold - *Expect the color selector to appear*
+1. Click on a letter/word on in the selection window and hold - *Expect the color selector to appear*
 * Choose a different color - *Expect the color to change as selected*
 * Repeat for all three colors
 
@@ -103,7 +103,7 @@
 
 #### Routine Testing Subflow
 
-* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+1. Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
@@ -142,7 +142,7 @@
 
 #### Routine Testing Subflow
 
-* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+1. Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
@@ -156,7 +156,7 @@
 
 #### Onset Subflow
 
-* Teacher App: Select an onset - *Expect the chosen onset to appear in Middle Window and related words to appear in the Top Window*
+1. Teacher App: Select an onset - *Expect the chosen onset to appear in Middle Window and related words to appear in the Top Window*
 * Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
 * Student App: *Expect the chosen word to appear in the Middle Top Hat image*
 * Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen onset to become green*
@@ -169,7 +169,7 @@
 
 #### Rime Subflow
 
-* Teacher App: Select a rime - *Expect the chosen rime to appear in Middle Window and related words to appear in the Top Window*
+1. Teacher App: Select a rime - *Expect the chosen rime to appear in Middle Window and related words to appear in the Top Window*
 * Teacher App: Select a word from the Top Window - *Expect the chosen word to appear in the Middle Window*
 * Student App: *Expect the chosen word to appear in the Middle Top Hat image*
 * Teacher App: Select the **Yes** button on the Student Card - *Expect the chosen onset to become green*
@@ -184,7 +184,7 @@
 
 #### Routine Testing Subflow
 
-* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+1. Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
@@ -225,7 +225,7 @@
 
 #### Routine Testing Subflow
 
-* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+1. Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
@@ -240,7 +240,7 @@
 
 #### Student Assessment Subflow
 
-* Teacher App: Select a Student ID at the top - *Expect the student card to turn orange*
+1. Teacher App: Select a Student ID at the top - *Expect the student card to turn orange*
 * Teacher App: Click on the **Common Core Standards** tab
 * Teacher App: Click on an **Assessment** once - *Expect assessment to turn red*
 * Teacher App: Click on an **Assessment** twice - *Expect assessment to turn yellow*
@@ -250,7 +250,7 @@
 
 #### Story Paging Subflow
 
-* Teacher App: Swipe the story page left - *Expect the page to move left*
+1. Teacher App: Swipe the story page left - *Expect the page to move left*
 * Student App: *Expect the page to move left*
 * Teacher App: Swipe the story page right - *Expect the page to move right*
 * Student App: *Expect the page to move right* 
@@ -263,22 +263,125 @@
 
 #### Student Messaging Subflow
 
-* Teacher App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
+1. Teacher App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
 * Teacher App: Type into the message field - *Expect selected text to appear in the field*
 * Teacher App: Click the **Send** button - *Expect the keyboard to be hidden*
 * Student App: *Expect the Student Message Field to render the message*
 
 #### Student Messaging Subflow
 
-* Student App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
+1. Student App: Click into the messaging window - *Expect the keyboard to pop up and the cursor to enter the message field*
 * Student App: Type into the message field - *Expect selected text to appear in the field*
 * Student App: Click the **Send** button - *Expect the keyboard to be hidden*
 * Teacher App: *Expect the Teacher Message Field to render the message*
 
 #### Routine Testing Subflow
 
-* Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
+1. Teacher App: Follow the CHANGE ASSESSMENT WORKFLOW
 * Teacher App: Follow the CHANGE ASSIGNMENT WORKFLOW
 * Teacher App: Follow the CREATE NOTE WORKFLOW
 * Teacher App: Follow the USE TIMERS WORKFLOW
 * Teacher App: Follow the WHITEBOARD WORKFLOW
+
+### Automatic Skill Orders Workflow
+
+1. New Session
+* Click the **Automatic** button - *Expect the Choose a Reading Stage menu to appear*
+
+### Skill Progression Workflow Example
+
+1. Click on the **1** button - *Expect the Letter Names activity to appear*
+* Click on the **Flashcard** button - *Expect the Flashcard activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Story Menu to appear*
+* Click on a story - *Expect a story to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Sight Words activity to appear*
+* Click on the **Flashcard** button - *Expect the Flashcard activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Letter Names activity to appear*
+* Click on the **Flashcard** button - *Expect the Flashcard activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **Cover Up** button - *Expect the Cover Up activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Story Menu to appear*
+* Click on a story - *Expect a story to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Letter Sounds activity to appear*
+* Click on the **Exit** button - *Expect the What Next? menu to appear*
+* Click on the **New Skill** button - *Expect the Reading Stage activity to appear*
+
+### Automatic Sequences to Check - *Use the above SKILL PROGRESSION WORKFLOW EXAMPLE*
+
+#### Reading Stage 1
+
+* Letter Name
+* Story Reading
+* Sight Words
+* Letter Name
+* Story Reading 
+
+#### Reading Stage 2 
+
+* Letter Sound
+* Story Reading 
+* Sight Words 
+* Letter Sound
+* Letter Sound 
+
+#### Reading Stage 3 
+
+* Onset/Rime 
+* Story Reading 
+* Sight Words 
+* Onset/Rime 
+* Onset/Rime 
+
+#### Reading Stage 4 
+
+* Onset/Rime 
+* Story Reading 
+* Sight Words
+* Onset/Rime 
+* Story Reading 
+
+#### Reading Stage 5 
+
+* Onset/Rime 
+* Story Reading 
+* Sight Words 
+* Onset/Rime 
+* Story Reading 
+
+#### Reading Stage 6 
+
+* Onset/Rime
+* Story Reading
+* Sight Words 
+* Onset/Rime 
+* Story Reading 
+
+#### Reading Stage 7 
+
+* Onset/Rime 
+* Sight Words 
+* Onset/Rime
+* Story Reading 
+
+#### Reading Stage 8 
+
+* Sight Words 
+* Story Reading 
+* Onset/Rime 
+* Story Reading 
+
+#### Reading Stage 9 
+
+* Sight Words
+* Story Reading 
+* Onset/Rime
+* Story Reading
