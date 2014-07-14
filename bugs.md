@@ -10,23 +10,31 @@
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
 * **Activity**: Stories - Student Messages
+* **Problem**: Follow initial message sent successfully with Send button subsequent taps of Send button cause blue lines terminated with filled blue circle to appear and messages are not sent.
+* **Device**: regular iPad on Teacher side
+* ![TN_TextSend_BlueLines.jpg](TN_TextSend_BlueLines.jpg)
+
+## Bug #3
+
+* **App**: TeacherMate - Teacher Small Group and Student Small Group
+* **Activity**: Stories - Student Messages
 * **Problem**: Text is not aligned within messaging field
 * **Device**: regular iPad on Student side
 
-## Bug #3
+## Bug #4
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
 * **Activity**: Stories - Common Core Standards
 * **Problem**: `Experience's` should be spelled `Experiences`
 
-## Bug #4
+## Bug #5
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
 * **Activity**: Stories - Student Page Turning
 * **Problem**: If setting is switched to Student Turns Page, Teacher cannot switch back to Teacher Turns Page
 * **Device**: iPad Mini on Teacher side
 
-## Bug #5
+## Bug #6
 
 * **App**: TeacherMate - Teacher Small Group (no student logged in)
 * **Activity**: All Activities

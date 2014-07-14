@@ -161,3 +161,9 @@ and the score (1) displayed for Jill Green-I
 * *Expect all stimuli presented to Mary Brown-II to be represented to Mary Brown-II in new order after initial presentation of all stimuli*
 * *Expect all stimuli presented to Jill Green-I to be represented to Jill Green-I in new order after initial presentation of all stimuli*
 
+### One Card Reader Scoring Workflow
+1. Repeat STAGE I CARD READER GAME WORKFLOW until *Yes button* has been tapped 10 times.
+* Tap *Scoring* button - *Expect to see Game Screen switch to Review Screen*
+	- *Card Reader menu* - Labelled Card Reader, displaying Jill Green-I
+	- *Report button*
+	- *Back to Start a Session button*
