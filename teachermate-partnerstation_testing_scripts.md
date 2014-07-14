@@ -1,8 +1,8 @@
 # Partner Station
 
-## Tests
+## Login and Game Tests
 
-### Login Workflow
+### Initial Login Workflow
 
 1. Open App - *Expect Splash Screen to load*
 * App Loads - *Expect app to be viewed only in landscape mode*
@@ -11,309 +11,159 @@
 * Enter Password into **teacher password**: 1234
 * Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
 
-### One Card Reader Login Workflow
+### Wake App Workflow
+1. Follow INITIAL LOGIN WORKFLOW
+* Tap iPad *Home button* - *Expect to see iPad Home Screen*
+* Open App - *Expect to see Login Screen with teacher login form hidden*
+
+### Open App after Successful Login Workflow
+1. Follow INITIAL LOGIN WORKFLOW
+* Double tap *iPad Home button* - *Expect to see the iOS 7 Multi-tasking view*
+* Swipe up on the PartnerStation screenshot - *Expect to see PartnerStation icon removed from the multi-tasking view*
+* Tap *iPad Home button* - *Expect to see iPad Home Screen*
+* Open PartnerStation - *Expect to see Login Screen with teacher login form populated with username: johnteacher, password: ****
+* Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
+
+### Stage I Card Reader Login Workflow
 
 1. Follow the LOGIN WORKFLOW
-* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
-* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
+* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on *Mary Brown-II* - *Expect to see the student name displayed*
+* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on *Jill Green-I* - *Expect to see the student name displayed*
+* Click on *Go button* - *Expect to see the login screen switch to the game screen*
+ 	- Help button
+ 	- Jill Green-I - Highlighted - labelled Card Reader
+  	- Mary Brown-II - labelled Card Listener
+  	- Stimulus
+  	- Score
+  	- Yes button
+  	- No button
+  	- Scoring button
+
+
+### Stage I Card Reader Game Workflow
+1. Follow the STAGE I CARD READER LOGIN WORKFLOW
+* Expect the stimulus to be any letter upper or lower case
+* Click on the *Help button* - expect to hear the NAME of the stimulus
+* Click on the *Yes button* - expect to see the Score incremented and see the stimulus replaced.
+* Click on the *No button* - expect to hear the NAME of the stimulus and see the stimulus replaced.
+
+### One Card Reader Incorrect Answer Game Workflow
+1. Repeat STAGE I CARD READER GAME WORKFLOW Until all stimuli have been presented
+* *Expect stimuli followed by clicking No button to be re-presented after initial presentation of all stimuli*
+
+### One Card Reader Stimuli Exhausted Game Workflow
+1. Repeat STAGE I CARD READER GAME WORKFLOW
+* *Expect all stimuli to be represented in new order after initial presentation of all stimuli*
+
+
+
+### Stage II Card Reader Login Workflow
+
+1. Follow the LOGIN WORKFLOW
+* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on *Jill Green-I** - *Expect to see the student name displayed*
+* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on *Mary Brown-II* - *Expect to see the student name displayed*
+* Click on *Go button* - *Expect to see the login screen switch to the game screen*
+ 	- Help button
+ 	- Mary Brown-II - Highlighted, labelled Card Reader
+  	- Jill Green-I - labeled Card Listener
+  	- Stimulus
+  	- Score
+  	- Yes button
+  	- No button
+  	- Scoring button
+
+### Stage II Card Reader Game Workflow
+1. Follow the STAGE II CARD READER LOGIN WORKFLOW
+	- Expect the stimulus to be either the first letter or entire word from this list:
+	- at, bat, cat, dad, egg, fat, get, hat, in, jet, kid, let, met, net, on, pet, rat, sat, tap, up, vat, wet, yet, zap 
+* Click on the *Help button* - expect to hear the SOUND of the stimulus 
+* Click on the *Yes button* - expect to see the Score incremented and see the stimulus replaced.
+* Click on the *No button* - expect to hear the NAME of the stimulus and see the stimulus replaced.
+
+### Stage III Card Reader Login Workflow
+
+1. Follow the LOGIN WORKFLOW
+* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Jill Green-I - *Expect to see the student name displayed*
+* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Joe Gray-III - *Expect to see the student name displayed*
+* Click on *Go button* - *Expect to see the login screen switch to the game screen*
+ 	- Help button
+ 	- Joe Gray-III - Highlighted, labelled Card Reader
+  	- Jill Green-I labelled Card Listener
+  	- Stimulus
+  	- Score
+  	- Yes button
+  	- No button
+  	- Scoring button
+
+### Stage III Card Reader Game Workflow
+1. Follow the STAGE III CARD READER LOGIN WORKFLOW
+	- Expect the stimulus to be either a SIGHT WORD word from this list:
+		- a, and, ball, be, blue, by, do, for, funny, green, has, he, house, is, like, little, me, no, play, said, school, see, she, the, they, to, toy, we, why
+	- OR an ONSET/RIME word from this list:
+		- bad, bat, bun, but, cap, cat, cut, did, dip, fin, fit, got, ham, hat, hid, him, hop, hot, hut, jam, kid, kit, lap, lid, lip, lot, mad, man, map, mom, mud, nap, nod, pop, pup, ran, rim, rod, run, sad, sip, sit, son, sun, tan, tin, ton, top, win, won, yam 
+* Click on the *Help button* - expect to hear the SOUND of the stimulus 
+* Click on the *Yes button* - expect to see the Score incremented and see the stimulus replaced.
+* Click on the *No button* when a SIGHT WORD is displayed - expect to hear the SOUND of the word and see the word get larger and then see the stimulus replaced.
+* Click on the *No button* when an ONSET/RIME WORD is displayed - expect to 
+	- hear the sound of the word and see the word get larger and then smaller
+	- see the word split into onset and rime
+	- hear the sound of the onset and see it grow larger and then smaller
+	- hear the sound of the rime and see it grow larger and then smaller
+	- hear the sound of the word and see the word get larger 
+	- see the stimulus change
+
 
 ### Two Card Reader Login Workflow
 
 1. Follow the LOGIN WORKFLOW
-* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
-* Click on first **Card Listener** option - *Expect to see a drop down menu of student names (Joe Gray-I, Joe Gray-IE, etc)*
-* Click on a student name - *Expect to see the student name displayed*
-* Click on second **Card Listener** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
-
-### One Stage I Card Reader Login Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on **Mary Brown II** - *Expect to see the student name displayed*
-* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Joe Gray-I, Mary Brown-II, etc)*
-* Click on **Joe Gray I** - *Expect to see the student name displayed*
-* Click on *Go* button - *Expect Login Screen to switch to Game Screen:*
-  - Help button
-  - Card Reader Name - Highlighted
-  - Card Listener Name
-  - Stimulus
-  - Score
-  - Yes button
-  - No button
-  - Scoring button
-
-### One Stage I Card Reader Game Workflow
-1. Follow ONE STAGE I CARD READER LOGIN WORKFLOW
-* *Expect to see a randomly selected upper or lower case letter as stimulus*
-* Click on *Help* button - *Expect to hear the stimulus*
-* Click on *Yes* button - *Expect to see the score incremented and the stimulus changed*
-* Click on *No* button - *Expect to hear the stimulus letter NAME*
-
-
-### Incorrect Answer Game Workflow
-1. Repeat ONE STAGE I CARD READER GAME WORKFLOW Until all stimului have been presented
-* *Expect stimuli followed by clicking No button to be represented after initial presentation of all stimuli*
-
-### Stimuli Exhausted Game Workflow
-1. Repeat ONE STAGE I CARD READER GAME WORKFLOW
-* *Expect all stimuli to be represented in new order after initial presentation of all stimuli*
-
-
-### PartnerStation test script complete to here
-
-
-
-### Reset Conference Order Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Click on **Teacher Conference** option - *Expect to see a chart of students (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a **Student** record - *Expect the record color to change to Dark Grey*
-* Re-sort Conf. Order by click-and-hold on Student, drag row to new slot - *Expect new order to change*
-
-### Adding Student Notes Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Click on **Teacher Conference** option - *Expect to see a chart of students (Joe Gray-I, Mary Brown-II, etc)*
-* Click on a **Student** record - *Expect the record color to change to Dark Grey*
-* Click the **View/Add Notes** button - *Expect the screen to switch to the Student Note Screen*
-* Click the **Add Notes** button - *Expect a new note to appear with the Date field already filled*
-* Click into **Observation/Instruction** space - *Expect cursor to move into and blink on Observation/Instruction space*
-* Type in test data
-* Click into **Next Steps** space - *Expect cursor to move into and blink on Next Steps space*
-* Type in test data
-* Click the **Exit** button - *Expect the screen to switch back to the Teacher Conference Screen*
-* Click **View/Add Notes** button, again - *Expect the screen to switch to the Student Note Screen and the previous note(s) should be visible*
-
-### Start Session without Student Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Click on **Teacher Conference** option - *Expect to see a chart of students (Joe Gray-I, Mary Brown-II, etc)*
-* Make sure no **Student** record is selected
-* Click on **Start Session** button - *Expect warning to appear with "Student is not selected" in the message*
-* Click the **OK** option to exit - *Expect warning to disappear and Teacher Conference Screen to reappear*
-
-### Start Session with Student Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Click on **Teacher Conference** option - *Expect to see a chart of students (Joe Gray-I, Mary Brown-II, etc)*
-* Click on **Start Session** button - *Expect screen to switch to Choose a Skill Screen*
-
-### Letter Names Activity Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Follow the START SESSION WITH STUDENT WORKFLOW
-* Click on **Letter Names** button - *Expect the screen to switch to the Letter Names Screen*
-
-#### Indicate Yes Subflow
-
-1. Click on a random letter - *Expect letter to appear in Word Window*
-* Click on **No** - *Expect letter to be highlighted red*
-
-#### Indicate No Subflow
-
-1. Click on a different random letter - *Expect letter to appear in Word Window*
-* Click on **Yes** - *Expect letter to be highlighted green*
-
-#### Change Yes to No Subflow
-
-1. Click on first letter from INDICATE YES SUBFLOW - *Expect letter to appear in Word Window*
-* Click on **Yes** - *Expect red highlight to change to green highlight*
-
-#### Change No to Yes Subflow
-
-1. Click on Second letter from INDICATE NO SUBFLOW - *Expect letter to appear in Word Window*
-* Click on **No** - *Expect green highlight to change to red highlight*
-
-#### Manual change of Yes, No, Clear Subflow
-
-1. Click on random letter and hold - *Expect a three-colored pop-up to appear*
-* Choose Green, Red, or Clear - *Expect color to change to chosen color*
-* Repeat steps for all colors - *Expect color to change to chosen color*
-
-### Letter Sounds Activity Workflow
-
-1. Follow the LOGIN WORKFLOW
-* Follow the START SESSION WITH STUDENT WORKFLOW
-* Click on **Letter Sounds** button - *Expect the screen to switch to the Letter Sounds Screen*
-
-#### Indicate Yes Subflow
-
-1. Click on a random letter - *Expect letter to appear in Word Window*
-* Click on **No** - *Expect letter to be highlighted red*
-
-#### Indicate No Subflow
-
-1. Click on a different random letter - *Expect letter to appear in Word Window*
-* Click on **Yes** - *Expect letter to be highlighted green*
-
-#### Change Yes to No Subflow
-
-1. Click on first letter from INDICATE YES SUBFLOW - *Expect letter to appear in Word Window*
-* Click on **Yes** - *Expect red highlight to change to green highlight*
-
-#### Change No to Yes Subflow
-
-1. Click on Second letter from INDICATE NO SUBFLOW - *Expect letter to appear in Word Window*
-* Click on **No** - *Expect green highlight to change to red highlight*
-
-#### Manual change of Yes, No, Clear Subflow
-
-1. Click on random letter and hold - *Expect a three-colored pop-up to appear*
-* Choose Green, Red, or Clear - *Expect color to change to chosen color*
-* Repeat steps for all colors - *Expect color to change to chosen color*
-
-### User Timers Workflow
-
-* Click on first **00:00** time - *Expect the screen to focus on a timer*
-* Click on the **00** for hours - *Expect a cursor to enter the field*
-* Click on a number to set minutes - *Expect the chosen number to be inserted into the field*
-* Click on the **00** for seconds - *Expect a cursor to enter the field*
-* Click on a number to set seconds - *Expect the chosen number to be inserted into the field*
-* Click the **OK** button to save - *Expect screen to switch back to the activity screen*
-* Click the **Start** button to start the timer - *Expect the Timer to count down*
-* Click the **Stop** button to end the timer - *Expect the Timer to stop*
-* Repeat the above steps with the with second timer
-* *Expect the STOP button to back into START when the timer expires*
-
-### Change Student Assignment Levels Workflow
-
-* Click on **Assignment** button - *Expect displays to show list of options: Reading Stage, Reading Level, Onset/Rime Set, Sight Word Set)*
-* Click on **Reading Stage** and change - *Expect Assignment Description on bottom of app to change to chosen values*
-* Click on **Reading Level** and change - *Expect Assignment Description on bottom of app to change to chosen values*
-* Click on **Onset/Rime Set** and change - *Expect Assignment Description on bottom of app to change to chosen values*
-* Click on **Sight Word** and change - *Expect Assignment Description on bottom of app to change to chosen values*
-* Click on **information icon** (i) in top right corner of Assignment Window - *Expect information pop-up to appear* 
-* Click on the Sync button *Expect notification to appear regarding sync process*
-* !!!Check on OMS data!!!
-
-### Add Note from Activity Screen Workflow
-
-* Click on **Note** button - *Expect Activities Screen to switch to Notes screen*
-* Click the **Add Notes** button - *Expect the screen to switch to the Student Note Screen*
-* Click the **Add Notes** button - *Expect a new note to appear with the Date field already filled*
-* Click into **Observation/Instruction** space - *Expect cursor to move into and blink on Observation/Instruction space*
-* Type in test data
-* Click into **Next Steps** space - *Expect cursor to move into and blink on Next Steps space*
-* Type in test data
-* Click the **Exit** button - *Expect the screen to switch back to the Teacher Conference Screen*
-* Click **Note** button, again - *Expect the screen to switch to the Student Note Screen and the previous note(s) should be visible*
-
-### Onset/Rime Activity Workflow
-
-1. Click on **Onset/Rime** button - *Expect Onset/Rime screen to appear*
-
-#### Select an Onset Subflow
-
-1. Select a random Rime - *Expect selected Rime to appear in the Middle Window and onset/rime words to appear in the Top Window*
-* Select an Onset/Rime Word in the Top Window - *Expect the selected word to appear in the Middle Window*
-* Click the **Yes** button - *Expect the selected Rime to be highlighted green*
-
-#### Select an Onset
-
-* Select a random Onset - *Expect selected Onset to appear in the Middle Window and onset/rime words to appear in the Top Window*
-* Select an Onset/Rime Word in the Top Window - *Expect the selected word to appear in the Middle Window*
-* Click the **Yes** button - *Expect the selected Onset to be highlighted green*
-
-#### Change a Rime Assessment
-
-1. Select a random Rime - *Expect selected Rime to appear in the Middle Window and onset/rime words to appear in the Top Window*
-* Select an Onset/Rime Word in the Top Window - *Expect the selected word to appear in the Middle Window*
-* Click the **No** button - *Expect the selected Rime to be highlighted red*
-
-#### Change an Onset Assessment
-
-1. Select a random Onset - *Expect selected Onset to appear in the Middle Window and onset/rime words to appear in the Top Window*
-* Select an Onset/Rime Word in the Top Window - *Expect the selected word to appear in the Middle Window*
-* Click the **No** button - *Expect the selected Onset to be highlighted green*
-
-#### Manually change a Rime Assessment
-
-1. Select a green Rime and hold - *Expect a Green/Red/White option to appear*
-* Select the **Red** option - *Expect the Rime to change highlight to red*
-* Select a red Rime and hold - *Expect a Green/Red/White option to appear*
-* Select the **Green** option - *Expect the Rime to change highlight to green*
-* Select a red Rime and hold - *Expect a Green/Red/White option to appear*
-* Select the **White** option - *Expect the Rime to change highlight to cleared*
-* Repeat this Subflow for All or Multiple Rimes
-
-#### Manually change an Onset Assessment
-
-1. Select a green Onset and hold - *Expect a Green/Red/White option to appear*
-* Select the **Red** option - *Expect the Rime to change highlight to red*
-* Select a red Onset and hold - *Expect a Green/Red/White option to appear*
-* Select the **Green** option - *Expect the Rime to change highlight to green*
-* Select a red Onset and hold - *Expect a Green/Red/White option to appear*
-* Select the **White** option - *Expect the Rime to change highlight to cleared*
-* Repeat this Subflow for All or Multiple Onsets
-
-#### Change the Onset/Rime levels
-
-* Select the **II** tab on the right - *Expect the Level II Onset/Rimes to appear*
-* Repeat the CHANGE A RIME ASSESSMENT WORKFLOW
-* Repeat the CHANGE AN ONSET ASSESSMENT WORKFLOW
-* Repeat the MANUALLY CHANGE A RIME ASSESSMENT
-* Repeat the MANUALLY CHANGE AN ONSET ASSESSMENT
-* Select the **III** tab and repeat the above set of instructions
-* Select the **IV** tab and repeat the above set of instructions
-
-### Sight Words Activity Workflow
-
-1. Click on **Sight Words** button - *Expect Sight Words screen to appear*
-
-#### Select a Word and Assess Yes Subflow
-
-1. Select a random word - *Expect selected Word to appear in the Middle Window*
-* Click the **Yes** button - *Expect the selected Word to be highlighted green*
-
-#### Select a Word and Assess No Subflow
-
-1. Select a random word - *Expect selected Word to appear in the Middle Window*
-* Click the **No** button - *Expect the selected Word to be highlighted red*
-
-#### Manually change a Word Assessment
-
-1. Select a green Word and hold - *Expect a Green/Red/White option to appear*
-* Select the **Red** option - *Expect the Word to change highlight to red*
-* Select a red Word and hold - *Expect a Green/Red/White option to appear*
-* Select the **Green** option - *Expect the Word to change highlight to green*
-* Select a red Word and hold - *Expect a Green/Red/White option to appear*
-* Select the **White** option - *Expect the Word to change highlight to cleared*
-* Repeat this Subflow for All or Multiple Words
-
-#### Change the Onset/Rime levels
-
-* Select the **II** tab on the left - *Expect the II level words to appear*
-* Repeat the SELECT A WORD AND ASSESS YES WORKFLOW
-* Repeat the SELECT A WORD AND ASSESS NO WORKFLOW
-* Repeat the MANUALLY CHANGE A WORD ASSESSMENT
-* Select the **III** on the left tab and repeat the above set of instructions
-* Select the **IV** tab and repeat the above set of instructions
-* Select the **V** tab and repeat the above set of instructions
-* Select the **VI** tab and repeat the above set of instructions
-
-### Story Activity Workflow
-
-1. Click on the **Story** button - *Expect Middle Window to reveal Level Menu*
-* Select a Reading Level - *Expect the screen to switch to Story Menu Screen*
-* Select a Book - *Expect the screen to switch to Story Screen*
-* Click on the **Common Core Standards** tab
-* Click on an **Assessment** once - *Expect the assessment to turn red*
-* Click on an **Assessment** twice - *Expect the assessment to turn yellow*
-* Click on an **Assessment** thrice - *Expect the assessment to turn green*
-* Click on an **Assessment** fourth - *Expect the assessment to be cleared*
-* Swipe the story page left - *Expect the page to move left*
-* Swipe the story page right - *Expect the page to move right*
-* Scroll the text up and down - *If extra lines are hidden, expect the scrolling to reveal all lines*
-
-### Whiteboard Workflow
-1. Click on the **Whiteboard** button - *Expect the Whiteboard Screen to appear*
-* Click anywhere on the Whiteboard Window - *Expect the flashing cursor to appear at the point of click*
-* Enter in text - *Expect the text to appear on the Whiteboard Window*
-* Click elsewhere on the Whiteboard - *Expect the flashing cursor to appear at the point of click*
-* Enter in text - *Expect the text to appear on the Whiteboard Window*
-* Click on the **Hide Keyboard** button (lower right corner of screen) - *Expect window to shrink*
-* Click the **Exit Button** - *Expect the screen to switch back to the pre-whiteboard Screen*
+* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Joe Gray-III - *Expect to see the student name displayed*
+* Click on first **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Mary Brown-II - *Expect to see the student name displayed*
+* Click on second **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Jill Green-I - *Expect to see the student name displayed*
+* * Click on *Go button* - *Expect to see the login screen switch to the game screen*
+ 	- Help button
+ 	- Jill Green-I - Highlighted labelled Card Reader
+ 	- Mary Brown-II - labelled Card Reader
+  	- Joe Gray-III - labelled Card Listener
+  	- Stimulus
+  	- Score - 0
+  	- Yes button
+  	- No button
+  	- Scoring button
+
+### Two Card Reader Game Workflow
+1. Follow the Two Card Reader Login Workflow
+* Click on the *Help button* - expect to hear the NAME of the stimulus 
+* Click on the *Yes button* - expect to see the see the stimulus replaced with Stage II stimulus and highlight removed from Jill Green-I and highlight added to Mary Brown II
+and the score (0) displayed for Mary Brown-II
+* Click on the *Yes button* - expect to see the stimulus replaced with Stage I stimulus and highlight removed from Mary Brown-II and highlight added to Jill Green-I
+and the score (0) displayed for Jill Green-I
+* Click on the *No button* - expect to hear the SOUND of the stimulus and see the see the stimulus replaced with Stage II stimulus and highlight removed from Jill Green-I and highlight added to Mary Brown II
+and the score (1) displayed for Mary Brown-II
+* Click on the *No button* - expect to hear the NAME of the stimulus and see the stimulus replaced with Stage I stimulus and highlight removed from Mary Brown-II and highlight added to Jill Green-I
+and the score (1) displayed for Jill Green-I
+
+### Two Card Reader Incorrect Answer Game Workflow
+1. Repeat TWO CARD READER GAME WORKFLOW Until all stimuli have been presented
+* *Expect stimuli presented to Mary Brown-II followed by clicking No button to be re-presented to Mary Brown-II after initial presentation of all Stage II stimuli*
+* *Expect stimuli presented to Jill Green-I followed by clicking No button to be re-presented to Jill Green-I after initial presentation of all Stage I stimuli*
+
+### Two Card Reader Stimuli Exhausted Game Workflow
+1. Repeat TWO CARD READER GAME WORKFLOW
+* *Expect all stimuli presented to Mary Brown-II to be represented to Mary Brown-II in new order after initial presentation of all stimuli*
+* *Expect all stimuli presented to Jill Green-I to be represented to Jill Green-I in new order after initial presentation of all stimuli*
+
+### One Card Reader Scoring Workflow
+1. Repeat STAGE I CARD READER GAME WORKFLOW until *Yes button* has been tapped 10 times.
+* Tap *Scoring* button - *Expect to see Game Screen switch to Review Screen*
+	- *Card Reader menu* - Labelled Card Reader, displaying Jill Green-I
+	- *Report button*
+	- *Back to Start a Session button*
