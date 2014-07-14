@@ -20,8 +20,8 @@
 * Click on *Jill Green-I* - *Expect to see the student name displayed*
 * Click on *Go button* - *Expect to see the login screen switch to the game screen*
  	- Help button
- 	- Card Reader Name - Highlighted
-  	- Card Listener Name
+ 	- Jill Green-I - Highlighted - labelled Card Reader
+  	- Mary Brown-II - labelled Card Listener
   	- Stimulus
   	- Score
   	- Yes button
@@ -36,11 +36,11 @@
 * Click on the *Yes button* - expect to see the Score incremented and see the stimulus replaced.
 * Click on the *No button* - expect to hear the NAME of the stimulus and see the stimulus replaced.
 
-### Incorrect Answer Game Workflow
+### One Card Reader Incorrect Answer Game Workflow
 1. Repeat STAGE I CARD READER GAME WORKFLOW Until all stimuli have been presented
 * *Expect stimuli followed by clicking No button to be re-presented after initial presentation of all stimuli*
 
-### Stimuli Exhausted Game Workflow
+### One Card Reader Stimuli Exhausted Game Workflow
 1. Repeat STAGE I CARD READER GAME WORKFLOW
 * *Expect all stimuli to be represented in new order after initial presentation of all stimuli*
 
@@ -55,8 +55,8 @@
 * Click on *Mary Brown-II* - *Expect to see the student name displayed*
 * Click on *Go button* - *Expect to see the login screen switch to the game screen*
  	- Help button
- 	- Card Reader Name - Highlighted
-  	- Card Listener Name
+ 	- Mary Brown-II - Highlighted, labelled Card Reader
+  	- Jill Green-I - labeled Card Listener
   	- Stimulus
   	- Score
   	- Yes button
@@ -80,8 +80,8 @@
 * Click on Joe Gray-III - *Expect to see the student name displayed*
 * Click on *Go button* - *Expect to see the login screen switch to the game screen*
  	- Help button
- 	- Card Reader Name - Highlighted
-  	- Card Listener Name
+ 	- Joe Gray-III - Highlighted, labelled Card Reader
+  	- Jill Green-I labelled Card Listener
   	- Stimulus
   	- Score
   	- Yes button
@@ -109,10 +109,42 @@
 ### Two Card Reader Login Workflow
 
 1. Follow the LOGIN WORKFLOW
-* Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Joe Gray-III - *Expect to see the student name displayed*
+* Click on first **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
+* Click on Mary Brown-II - *Expect to see the student name displayed*
+* Click on second **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
 * Click on Jill Green-I - *Expect to see the student name displayed*
-* Click on first **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
-* Click on second **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
-* Click on a student name - *Expect to see the student name displayed*
+* * Click on *Go button* - *Expect to see the login screen switch to the game screen*
+ 	- Help button
+ 	- Jill Green-I - Highlighted labelled Card Reader
+ 	- Mary Brown-II - labelled Card Reader
+  	- Joe Gray-III - labelled Card Listener
+  	- Stimulus
+  	- Score - 0
+  	- Yes button
+  	- No button
+  	- Scoring button
+
+### Two Card Reader Game Workflow
+1. Follow the Two Card Reader Login Workflow
+* Click on the *Help button* - expect to hear the NAME of the stimulus 
+* Click on the *Yes button* - expect to see the see the stimulus replaced with Stage II stimulus and highlight removed from Jill Green-I and highlight added to Mary Brown II
+and the score (0) displayed for Mary Brown-II
+* Click on the *Yes button* - expect to see the stimulus replaced with Stage I stimulus and highlight removed from Mary Brown-II and highlight added to Jill Green-I
+and the score (0) displayed for Jill Green-I
+* Click on the *No button* - expect to hear the SOUND of the stimulus and see the see the stimulus replaced with Stage II stimulus and highlight removed from Jill Green-I and highlight added to Mary Brown II
+and the score (1) displayed for Mary Brown-II
+* Click on the *No button* - expect to hear the NAME of the stimulus and see the stimulus replaced with Stage I stimulus and highlight removed from Mary Brown-II and highlight added to Jill Green-I
+and the score (1) displayed for Jill Green-I
+
+### Two Card Reader Incorrect Answer Game Workflow
+1. Repeat TWO CARD READER GAME WORKFLOW Until all stimuli have been presented
+* *Expect stimuli presented to Mary Brown-II followed by clicking No button to be re-presented to Mary Brown-II after initial presentation of all Stage II stimuli*
+* *Expect stimuli presented to Jill Green-I followed by clicking No button to be re-presented to Jill Green-I after initial presentation of all Stage I stimuli*
+
+### Two Card Reader Stimuli Exhausted Game Workflow
+1. Repeat TWO CARD READER GAME WORKFLOW
+* *Expect all stimuli presented to Mary Brown-II to be represented to Mary Brown-II in new order after initial presentation of all stimuli*
+* *Expect all stimuli presented to Jill Green-I to be represented to Jill Green-I in new order after initial presentation of all stimuli*
 
