@@ -20,7 +20,7 @@
 * [Teacher Notepad - Teacher Small Group](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teacher_notepad-teacher_small_group_testing_scripts.md)
 * [Teacher Notepad - Partner Scoring](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md) 
 * [Student Small Group](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-student_small_group.md)
-* [Partner Station Scoring](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md)
+* [Partner Station](https://github.com/innovationsforlearning/manual-testing-scripts/blob/master/teachermate-partnerstation_testing_scripts.md)
 
 ## Known bugs
 
