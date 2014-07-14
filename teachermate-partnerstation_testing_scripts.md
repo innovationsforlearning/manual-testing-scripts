@@ -1,14 +1,27 @@
 # Partner Station
 
-## Tests
+## Login and Game Tests
 
-### Login Workflow
+### Initial Login Workflow
 
 1. Open App - *Expect Splash Screen to load*
 * App Loads - *Expect app to be viewed only in landscape mode*
 * Expect Splash Page Screen to switch to Login Screen*
 * Enter Username into **teacher username** input field: johnteacher
 * Enter Password into **teacher password**: 1234
+* Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
+
+### Wake App Workflow
+1. Follow INITIAL LOGIN WORKFLOW
+* Tap iPad *Home button* - *Expect to see iPad Home Screen*
+* Open App - *Expect to see Login Screen with teacher login form hidden*
+
+### Open App after Successful Login Workflow
+1. Follow INITIAL LOGIN WORKFLOW
+* Double tap *iPad Home button* - *Expect to see the iOS 7 Multi-tasking view*
+* Swipe up on the PartnerStation screenshot - *Expect to see PartnerStation icon removed from the multi-tasking view*
+* Tap *iPad Home button* - *Expect to see iPad Home Screen*
+* Open PartnerStation - *Expect to see Login Screen with teacher login form populated with username: johnteacher, password: ****
 * Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
 
 ### Stage I Card Reader Login Workflow
