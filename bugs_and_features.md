@@ -1,3 +1,5 @@
+# Features and Bugs
+
 ## Bug #1
 
 * **App**: TeacherMate - Teacher Small Group and Student Small Group
@@ -45,3 +47,7 @@
 * **App**: TeacherMate - Teacher Notepad
 * **Activity**: Partner Station Scoring
 * **Problem**: Remove Conf Order column
+
+----
+
+## Feature #1
