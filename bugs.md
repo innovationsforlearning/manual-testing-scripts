@@ -45,3 +45,9 @@
 * **App**: TeacherMate - Teacher Notepad
 * **Activity**: Partner Station Scoring
 * **Problem**: Remove Conf Order column
+
+## Bug #8
+
+* **App**: TeacherMate - Teacher Notepad
+* **Activity**: Partner Station Scoring
+* **Problem**: Scores should be down synced on entry and up synced on exit of screen
