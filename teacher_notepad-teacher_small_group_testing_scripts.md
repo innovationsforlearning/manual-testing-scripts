@@ -1,4 +1,4 @@
-# TeacherMate - Teacher Notepad - Teacher Small Group
+# TeacherMate - Teacher Notepad - Partner Station Scoring
 
 ## Tests
 

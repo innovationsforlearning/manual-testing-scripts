@@ -1,6 +1,6 @@
 # Partner Station
 
-## Login and Game Tests
+## Tests
 
 ### Initial Login Workflow
 

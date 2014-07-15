@@ -39,3 +39,9 @@
 * **App**: TeacherMate - Teacher Small Group (no student logged in)
 * **Activity**: All Activities
 * **Problem**: Timers do not work
+
+## Bug #7
+
+* **App**: TeacherMate - Teacher Notepad
+* **Activity**: Partner Station Scoring
+* **Problem**: Remove Conf Order column
