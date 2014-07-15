@@ -162,8 +162,63 @@ and the score (1) displayed for Jill Green-I
 * *Expect all stimuli presented to Jill Green-I to be represented to Jill Green-I in new order after initial presentation of all stimuli*
 
 ### One Card Reader Scoring Workflow
-1. Repeat STAGE I CARD READER GAME WORKFLOW until *Yes button* has been tapped 10 times.
+1. Repeat STAGE I CARD READER GAME WORKFLOW until *Yes button* has been tapped 15 times.
 * Tap *Scoring* button - *Expect to see Game Screen switch to Review Screen*
 	- *Card Reader menu* - Labelled Card Reader, displaying Jill Green-I
 	- *Report button*
 	- *Back to Start a Session button*
+	- *Correct Word list containing words identified as correct during the game*
+	- *Review 1 Yes and No buttons*
+	- *Review 2 Yes and No buttons*
+	- *Jill Green-I Current Score containing existing score*
+	- *Jill Green-I Possible Points for Round containing 10
+	- *Jill Green-I New Score containing existing score*
+	- *Mary Brown-II Current Score containing existing score*
+	- *Mary Brown-II Possible Points for Round containing 10*
+	- *Mary Brown-II New Score containing existing score*
+* Swipe Up and Down on *Correct Word list* - Expect the list to scroll
+
+### Scoring Review 1 Workflow
+* Tap *Review 1 Yes button* - Expect to see:
+	- *Yes button* turn from white to green
+	-  Jill Green-I New Score value increase by 1/2 Possible Points for Round
+	-  Mary Brown-I New Score value increase by 1/2 Possible Points for Round
+* Tap *Review 1 Yes button* - Expect to see:
+	- *Yes button* turn from green to white
+	-  Jill Green-I New Score value decrease by (Possible Points for Round) rounded up to the nearest integer
+	-  Mary Brown-I New Score value decrease by (Possible Points for Round) rounded up to the nearest integer
+* Tap *Review 1 Yes button* - Expect to see:
+	- *Yes button* turn from white to green
+	-  Jill Green-I New Score value increase by (Possible Points for Round) rounded up to the nearest integer
+	-  Mary Brown-I New Score value increase by (Possible Points for Round) rounded up to the nearest integer
+* Tap *Review 1 No button* - Expect to see:
+	- *No button* turn from white to red
+	-  Jill Green-I New Score value decrease by (Possible Points for Round) rounded up to the nearest integer
+	-  Mary Brown-I New Score value decrease by (Possible Points for Round) rounded up to the nearest integer
+* Tap *Review 1 No button* - Expect to see:
+	- *No button* turn from red to white
+
+### Scoring Review 2 Workflow
+* Tap *Review 2 Yes button* - Expect to see:
+	- *Yes button* turn from white to green
+	-  Jill Green-I New Score value increase by (Possible Points for Round) rounded down to the nearest integer
+	-  Mary Brown-I New Score value increase by (Possible Points for Round) rounded down to the nearest integer
+* Tap *Review 2 Yes button* - Expect to see:
+	- *Yes button* turn from green to white
+	-  Jill Green-I New Score value decrease by (Possible Points for Round) rounded down to the nearest integer
+	-  Mary Brown-I New Score value decrease by (Possible Points for Round) rounded down to the nearest integer
+* Tap *Review 2 Yes button* - Expect to see:
+	- *Yes button* turn from white to green
+	-  Jill Green-I New Score value increase by (Possible Points for Round) rounded down to the nearest integer
+	-  Mary Brown-I New Score value increase by (Possible Points for Round) rounded down to the nearest integer
+* Tap *Review 2 No button* - Expect to see:
+	- *No button* turn from white to red
+	-  Jill Green-I New Score value decrease by (Possible Points for Round) rounded down to the nearest integer
+	-  Mary Brown-I New Score value decrease by (Possible Points for Round) rounded down to the nearest integer
+* Tap *Review 2 No button* - Expect to see:
+	- *No button* turn from red to white
+
+
+### Score Syncing Workflow
+1. Follow ONE CARD READER SCORING WORKFLOW
+
