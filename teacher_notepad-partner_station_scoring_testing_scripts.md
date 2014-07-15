@@ -13,10 +13,34 @@
 * *Expect syncing screen to pop up.*
 * *Expect syncing duration to be 1 - 5 min*
 
-### Partner Station Scoring Workflow
+### Partner Station Scoring Sorting Workflow
 1. Follow LOGIN WORKFLOW
 * Tap *Partner Station Scoring* - *Expect App Menu Screen to switch to Partner Station Scoring Screen*
 * Expect to see:
 	- *Exit button*
-	- *Table including columns: Conf Order; Student Name; Partner Station Score*
-*
+	- *Table including columns: Student Name; Partner Station Score*
+	- *Student Names: Jill Green-I, Mary Brown-II, Joe Gray-III*
+	- *Student Scores: (actual scores)*
+* Tap *Student Name header* - *Expect to see table sorted alphabetically by student name ascending*
+* Tap *Student Name header* - *Expect to see table sorted alphabetically by student name descending*
+* Tap *Partner Station Score header* - *Expect to see table sorted numerically by score ascending*
+
+### Partner Station Scoring Edit Workflow
+1. Follow LOGIN WORKFLOW
+* Tap *Partner Station Scoring* - *Expect App Menu Screen to switch to Partner Station Scoring Screen*
+* Tap *any Score* - *Expect to see Score in a text field, Ok button, Cancel button*
+* Tap *text field* - *Expect to see keyboard*
+* Type *a number*  - *Expect to see the number in the text field*
+
+### Partner Station Scoring Cancel Edit Workflow
+1. Follow PARTNER STATION SCORING EDIT WORKFLOW
+* Tap *Cancel button* - *Expect to see Partner Station Scoring screen with score unchanged*
+
+### Partner Station Scoring Accept Edit Workflow
+1. Follow PARTNER STATION SCORING EDIT WORKFLOW
+* Tap *Ok button* - *Expect to see Partner Station Scoring screen with score updated*
+
+### Partner Station Exit Workflow
+1. Follow LOGIN WORKFLOW
+* Tap *Partner Station Scoring* - *Expect App Menu Screen to switch to Partner Station Scoring Screen*
+* Tap *Exit button* - *Expect Partner Station Scoring Screen to switch to App Menu Screen*
