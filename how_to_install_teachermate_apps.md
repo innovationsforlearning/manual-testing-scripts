@@ -30,10 +30,11 @@
 * Visit this link for [TeacherMate - Student Small Group](https://db.tt/DBKegLti)
 * Download the `TM_Teacher_Practice_Station_2014-07-15.ipa` file
 * Visit this link for [TeacherMate - Practice Station](https://db.tt/tmx22UH9)
-* Visit this link for TeacherMate - Partner Station *pending*
+* *[PENDING] Visit this link for TeacherMate - Partner Station*
 * Double-click the `TM_Student_Small_Group_2014-07-15.ipa` to install into iTunes
 * Double-click the `TM_Teacher_Notepad_2014-07-15.ipa` to install into iTunes
 * Double-click the `TM_Teacher_Practice_Station_2014-07-15.ipa` to install into iTunes
+* *[PENDING] Double-click the `TM_Partner_Station_2014-07-15.ipa` to install into iTunes*
 
 ### Install the apps on to your device
 
