@@ -15,7 +15,7 @@
 
 ### Prepare your iTunes
 
-1. On your Mac laptop, open iTunes
+1. On your laptop, open iTunes
 * Select the Apps section
 * ![Select the Apps section](http://bit.ly/1wfc9yv)
 * If any TeacherMate apps exist on your iTunes, please right click and delete
@@ -23,18 +23,18 @@
 
 ### Download the apps
 
-1. Make sure iTunes is open on the laptop you are downloading to
-* Download the `TM_Teacher_Notepad_2014-07-15.ipa` file
+1. Make sure iTunes is open on the laptop into which you are downloading
 * Visit this link for [TeacherMate - Teacher Notepad](https://db.tt/lOuW6r5O)
-* Download the `TM_Student_Small_Group_2014-07-15.ipa` file
-* Visit this link for [TeacherMate - Student Small Group](https://db.tt/DBKegLti)
-* Download the `TM_Teacher_Practice_Station_2014-07-15.ipa` file
 * Visit this link for [TeacherMate - Practice Station](https://db.tt/tmx22UH9)
-* *[PENDING] Visit this link for TeacherMate - Partner Station*
+* Visit this link for [TeacherMate - Student Small Group](https://db.tt/DBKegLti)
+* Visit this link for [TeacherMate - Partner Station](https://db.tt/E5jag7Wp)
+
+### Add apps to iTunes
+
+1. Double-click the `TM_Teacher_Notepad_2014-07-15.ipa` to install into iTunes
+* Double-click the `TM_Practice_Station_2014-07-15.ipa` to install into iTunes
 * Double-click the `TM_Student_Small_Group_2014-07-15.ipa` to install into iTunes
-* Double-click the `TM_Teacher_Notepad_2014-07-15.ipa` to install into iTunes
-* Double-click the `TM_Teacher_Practice_Station_2014-07-15.ipa` to install into iTunes
-* *[PENDING] Double-click the `TM_Partner_Station_2014-07-15.ipa` to install into iTunes*
+* Double-click the `TM_Partner_Station_2014-07-19.ipa` to install into iTunes
 
 ### Install the apps on to your device
 
