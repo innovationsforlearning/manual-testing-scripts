@@ -2,31 +2,31 @@
 
 ## Tests
 
-### Initial Login Workflow
+### Initial Sync Workflow
 
 1. Open App - *Expect Splash Screen to load*
 * App Loads - *Expect app to be viewed only in landscape mode*
 * Expect Splash Page Screen to switch to Login Screen*
 * Enter Username into **teacher username** input field: johnteacher
 * Enter Password into **teacher password**: 1234
-* Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
+* Click *Sync* button - *Expect Alert indicating successful Sync*
 
 ### Wake App Workflow
-1. Follow INITIAL LOGIN WORKFLOW
+1. Follow INITIAL SYNC WORKFLOW
 * Tap iPad *Home button* - *Expect to see iPad Home Screen*
-* Open App - *Expect to see Login Screen with teacher login form hidden*
+* Open App - *Expect to see Login Screen *
 
 ### Open App after Successful Login Workflow
-1. Follow INITIAL LOGIN WORKFLOW
+1. Follow INITIAL SYNC WORKFLOW
 * Double tap *iPad Home button* - *Expect to see the iOS 7 Multi-tasking view*
 * Swipe up on the PartnerStation screenshot - *Expect to see PartnerStation icon removed from the multi-tasking view*
 * Tap *iPad Home button* - *Expect to see iPad Home Screen*
-* Open PartnerStation - *Expect to see Login Screen with teacher login form populated with username: johnteacher, password: ****
-* Click *login* button - *Expect Alert indicating successful login and teacher login form to be hidden*
+* Open PartnerStation - *Expect to see Login Screen with teacher sync form populated with username: johnteacher, password: ****
+* Click *Sync* button - *Expect Alert indicating successful sync*
 
 ### Stage I Card Reader Login Workflow
 
-1. Follow the LOGIN WORKFLOW
+1. Follow the INITIAL SYNC WORKFLOW
 * Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
 * Click on *Mary Brown-II* - *Expect to see the student name displayed*
 * Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
@@ -61,7 +61,7 @@
 
 ### Stage II Card Reader Login Workflow
 
-1. Follow the LOGIN WORKFLOW
+1. Follow the INITIAL SYNC WORKFLOW
 * Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
 * Click on *Jill Green-I** - *Expect to see the student name displayed*
 * Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
@@ -86,7 +86,7 @@
 
 ### Stage III Card Reader Login Workflow
 
-1. Follow the LOGIN WORKFLOW
+1. Follow the INITIAL SYNC WORKFLOW
 * Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
 * Click on Jill Green-I - *Expect to see the student name displayed*
 * Click on **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
@@ -121,7 +121,7 @@
 
 ### Two Card Reader Login Workflow
 
-1. Follow the LOGIN WORKFLOW
+1. Follow the INITIAL SYNC WORKFLOW
 * Click on **Card Listener** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
 * Click on Joe Gray-III - *Expect to see the student name displayed*
 * Click on first **Card Reader** option - *Expect to see a drop down menu of student names (Jill Green-I, Mary Brown-II, etc)*
@@ -140,7 +140,7 @@
   	- Scoring button
 
 ### Two Card Reader Game Workflow
-1. Follow the Two Card Reader Login Workflow
+1. Follow the TWO CARD READER LOGIN WORKFLOW
 * Click on the *Help button* - expect to hear the NAME of the stimulus 
 * Click on the *Yes button* - expect to see the see the stimulus replaced with Stage II stimulus and highlight removed from Jill Green-I and highlight added to Mary Brown II
 and the score (0) displayed for Mary Brown-II
@@ -171,10 +171,10 @@ and the score (1) displayed for Jill Green-I
 	- *Review 1 Yes and No buttons*
 	- *Review 2 Yes and No buttons*
 	- *Jill Green-I Current Score containing existing score*
-	- *Jill Green-I Possible Points for Round containing 10
+	- *Jill Green-I Possible Points for Round containing 15
 	- *Jill Green-I New Score containing existing score*
 	- *Mary Brown-II Current Score containing existing score*
-	- *Mary Brown-II Possible Points for Round containing 10*
+	- *Mary Brown-II Possible Points for Round containing 15*
 	- *Mary Brown-II New Score containing existing score*
 * Swipe Up and Down on *Correct Word list* - Expect the list to scroll
 
@@ -218,7 +218,27 @@ and the score (1) displayed for Jill Green-I
 * Tap *Review 2 No button* - Expect to see:
 	- *No button* turn from red to white
 
+### Report Screen Workflow
+1. Follow ONE CARD READER SCORING WORKFLOW
+* Tap *Tap to Report Screen* - *Expect to see Review Screen switch to Report Screen*
+* Tap *Student column header* - *Expect to see report sorted by Student Name*
+* Tap *Score column header* - *Expect to see report sorted by Student Score*
 
-### Score Syncing Workflow
+### Report Screen to Review Screen Workflow
+1. Follow REPORT SCREEN WORKFLOW
+* Tap *Back to Scoring Screen* - *Expect to see Report Screen switch to Review Screen with review settings and scores unchanged.
+
+### Report Screen to Login Screen Workflow
+1. Follow REPORT SCREEN WORKFLOW
+* Tap Back to Start Screen - *Expect to see Report Screen switch to Login Screen*
+
+
+### Score Down Syncing Workflow
+1. Follow the **TEACHERMATE - TEACHER NOTEPAD** - PARTNER STATION SCORING UPSYNCING WORKFLOW
+* Follow STAGE I CARD READER LOGIN WORKFLOW
+* Click *Scoring button* - *Expect to see Game Screen switch to Review Screen*
+* Click *Tap to the Report button* - *Expect to see Review Screen switch to Report Screen and the scores matching the scores in the **Teacher Notepad Partner Station Scoring screen** *
+
+### Score Up Syncing Workflow
 1. Follow ONE CARD READER SCORING WORKFLOW
 

@@ -40,7 +40,12 @@
 1. Follow PARTNER STATION SCORING EDIT WORKFLOW
 * Tap *Ok button* - *Expect to see Partner Station Scoring screen with score updated*
 
-### Partner Station Exit Workflow
+### Partner Station Scoring Exit Workflow
 1. Follow LOGIN WORKFLOW
 * Tap *Partner Station Scoring* - *Expect App Menu Screen to switch to Partner Station Scoring Screen*
 * Tap *Exit button* - *Expect Partner Station Scoring Screen to switch to App Menu Screen*
+
+### Partner Station Scoring Syncing Workflow
+1. Follow PARTNER STATION SCORING ACCEPT EDIT WORKFLOW
+* Follow PARTNER STATION SCORING EXIT WORKFLOW
+* 
